@@ -1,6 +1,6 @@
 class StringCalculator {
   int add(String numbers) {
-    // Start with simple test cases and evolve with TDD
-    return 0;
+    if (numbers.isEmpty) return 0;
+    return -1;
   }
 }

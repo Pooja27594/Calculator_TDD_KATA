@@ -8,5 +8,8 @@ void main() {
     test('Empty string returns 0', () {
       expect(calculator.add(''), 0);
     });
+    test('Single number returns itself', () {
+      expect(calculator.add('5'), equals(5));
+    });
   });
 }
